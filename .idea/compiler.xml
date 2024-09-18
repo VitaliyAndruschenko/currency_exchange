@@ -17,16 +17,18 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
-        <module name="currency.exchange" />
+        <module name="currency_exchange" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="currency.exchange" target="1.8" />
+      <module name="currency_exchange" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="currency.exchange" options="-parameters" />
+      <module name="currency_exchange" options="-parameters" />
     </option>
   </component>
 </project>
